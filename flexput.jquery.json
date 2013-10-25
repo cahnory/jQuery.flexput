@@ -1,0 +1,33 @@
+{
+  "name": "flexput",
+  "title": "flexput",
+  "description": "Input field adapting its size to its content",
+  "keywords": ["input","form"],
+  "version": "0.0.1",
+  "author": {
+    "name":   "François Germain",
+    "email":  "cahnory@gmail.com",
+    "url":    "http://www.cahnory.fr"
+  },
+  "maintainers": [
+    {
+      "name":   "François Germain",
+      "email":  "cahnory@gmail.com",
+      "url":    "http://www.cahnory.fr"
+    }
+  ],
+  "licenses": [
+    {
+      "type":  "MIT",
+      "url":   "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs":     "http://cahnory.github.com/jQuery.flexput/",
+  "homepage": "http://cahnory.github.com/jQuery.flexput/",
+  "docs":     "http://cahnory.github.com/jQuery.flexput/",
+  "download": "http://cahnory.github.com/jQuery.flexput/",
+  "dependencies": {
+    "jquery":   ">=2",
+    "easyPlug": ">=0.2.0"
+  }
+}

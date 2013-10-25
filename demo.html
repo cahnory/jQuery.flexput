@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+
+  <meta name="viewport" content="initial-scale=1.0">
+  <script>(function(e){e.className=e.className.replace(/(\s|^)no-js(\s|$)/,'js')}(document.documentElement))</script>
+  <style>
+    .inlineput {
+      background: #F0F0F0;
+      border: none;
+      border: 2px solid #21DB4A;
+      /*
+
+#21DB4A
+#9DBFE6
+*/
+      box-sizing: border-box;
+      font: inherit;
+      max-width: 100%;
+      width: 100%;
+      padding: 10px;
+    }
+    .js .inlineput {
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .inlineput {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+    
+      -webkit-transition: -webkit-box-shadow 0.2s;
+      -moz-transition: -moz-box-shadow 0.2s;
+      transition: box-shadow 0.2s;
+    
+      background: #FFF;
+      border: 1px solid #888888;
+      bottom: 0;
+      color: #333333;
+      display: inline-block;
+      left: 0;
+      font-size: 1em;
+      line-height: inherit;
+      margin: auto;
+      max-width: 33%;
+      padding: .2em .4em;
+      position: absolute;
+      right: 0;
+      top: 0;
+      vertical-align: baseline;
+    }
+    
+    .inlineput:focus,
+    .inlineput:active {
+      outline: none;
+      -webkit-box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(127, 127, 127, 0.3);
+      -moz-box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(127, 127, 127, 0.3);
+      box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(127, 127, 127, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <textarea class="inlineput">Made with easyPlug.</textarea>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+  <script src="js/jquery.easyPlug-0.2.0.min.js"></script>
+  <script src="js/jquery.flexput.js"></script>
+  <script>
+    /*global jQuery */
+    (function ($) {
+      'use strict';
+    
+      $('.inlineput').flexput();
+    
+    }(jQuery));
+  </script>
+
+</body>
+</html>
